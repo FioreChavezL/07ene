@@ -1,4 +1,8 @@
 import random
 
-numeroale = random.randint(1,5)
-print(f"El número aleatorio es {numeroale}")
+
+
+for x in range(1,11):
+    print(f"El lanzamiento número: {x}")
+    numeroale = random.randint(1,6)
+    print(f"El número del dado es: {numeroale}")
